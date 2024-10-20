@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narayana Rao Lingamaneni - Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/react/umd/react.development.js" crossorigin></script>
+    <script src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.development.js" crossorigin></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .animate-fade-in {
+            animation: fadeIn 1.5s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+
+<body class="bg-black text-white font-sans">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-gray-900 to-black py-6 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-4xl font-bold text-yellow-400">Narayana Rao Lingamaneni</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="hover:text-yellow-500 transition duration-300">About</a></li>
+                    <li><a href="#skills" class="hover:text-green-500 transition duration-300">Skills</a></li>
+                    <li><a href="#projects" class="hover:text-blue-500 transition duration-300">Projects</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-500 transition duration-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="h-screen flex flex-col justify-center items-center bg-gradient-to-b from-black to-gray-900">
+        <img src="IMG_3729.JPG" alt="Narayana Rao Lingamaneni" class="w-50 h-40 rounded-full mb-6 shadow-lg transform hover:scale-110 transition duration-500">
+        <h2 class="text-5xl font-bold mb-4 text-yellow-400 animate-fade-in">Hello, I'm Narayana Rao Lingamaneni</h2>
+        <p class="text-xl mb-6 text-gray-300">Data Analytics Engineering Student passionate about MLOps & Data Science</p>
+        <a href="https://drive.google.com" target="_blank" class="px-6 py-3 bg-blue-600 hover:bg-blue-800 text-white font-bold rounded-lg shadow-lg transition duration-300">Download Resume</a>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-16 bg-gray-900">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4 text-yellow-400 animate-fade-in">About Me</h2>
+            <p class="text-lg max-w-3xl mx-auto text-gray-300">I am currently pursuing a Master's in Data Analytics Engineering at Northeastern University, with a specialization in ML Operations, Generative AI, and Cloud-based Machine Learning and Engineering. I have a solid foundation in Electronics and Communication Engineering and am passionate about building solutions that bridge Data Science and MLOps. My journey includes hands-on experience in various technologies and platforms, with a strong focus on Cloud Development and Machine Learning Engineering.</p>
+        </div>
+    </section>
+   
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-gradient-to-b from-gray-800 to-black">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4 text-green-400 animate-fade-in">My Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+                    <img src="software.png" alt="MLOps Tools" class="w-16 h-16 mx-auto mb-4">
+                    <h3 class="text-2xl font-bold mb-2 text-blue-400">Programming Languages</h3>
+                    <p class="text-gray-300">Python, SQL, JavaScript, Bash, HTML, CSS</p>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+                    <img src="coding.png" alt="MLOps Tools" class="w-16 h-16 mx-auto mb-4">
+                    <h3 class="text-2xl font-bold mb-2 text-blue-400">MLOps & LLMOps Tools</h3>
+                    <p class="text-gray-300">MLflow, Kubeflow, Seldon, Vertex AI, AWS SageMaker, Docker, Kubernetes, Jenkins, GitHub Actions, Prometheus, Grafana, Terraform, Ansible, Airflow</p>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+                    <img src="artificial-intelligence-technolog.png" alt="Machine Learning Tools" class="w-16 h-16 mx-auto mb-4">
+                    <h3 class="text-2xl font-bold mb-2 text-blue-400">Machine Learning & AI Tools</h3>
+                    <p class="text-gray-300">TensorFlow, Keras, Scikit-Learn, Hugging Face, OpenAI, LangChain</p>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+                    <img src="aws-azure-google-1.png.webp" alt="Cloud Platforms" class="w-16 h-16 mx-auto mb-4">
+                    <h3 class="text-2xl font-bold mb-2 text-blue-400">Cloud Platforms</h3>
+                    <p class="text-gray-300">GCP BigTable, BigQuery, Cloud Run, DynamoDB, Azure Synapse, AWS services (EC2, RDS, IAM Roles, SNS, SES, Route53, CloudWatch)</p>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+                    <img src="-infographic-the-analysis-of-the_49022960.png" alt="Data Analysis" class="w- h-24 mx-auto mb-4">
+                    <h3 class="text-2xl font-bold mb-2 text-blue-400">Data Analysis & Visualization</h3>
+                    <p class="text-gray-300">Pandas, NumPy, Matplotlib, Seaborn, Power BI, Tableau, Google Looker</p>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+                    <img src="Generative_AI_(2).png" alt="Generative AI" class="w-2000px h-2000px mx-auto mb-4">
+                    <h3 class="text-2xl font-bold mb-2 text-blue-400">Generative AI</h3>
+                    <p class="text-gray-300">Large Language Models (LLMs), GPT-4, Prompt Engineering</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-gray-900">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4 text-blue-400 animate-fade-in">My Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+                    <img src="mlops.webp" alt="Fraud Detection Project" class="w-full h-48 object-cover mb-4 rounded">
+                    <h3 class="text-2xl font-bold mb-2 text-yellow-400">MLOps Pipeline for Fraud Detection</h3>
+                    <p class="text-gray-300">Developed a scalable fraud detection system using GCP Vertex AI, with an automated CI/CD pipeline using Jenkins and GitHub Actions. Achieved a 40% reduction in false positives while maintaining accuracy.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+                    <img src="llm_tuning.webp" alt="Custom Chatbot Project" class="w-full h-48 object-cover mb-4 rounded">
+                    <h3 class="text-2xl font-bold mb-2 text-yellow-400">LLM Fine-Tuning for Custom Chatbot</h3>
+                    <p class="text-gray-300">Fine-tuned GPT-4, increasing accuracy by 30% and user engagement by 25%. Deployed on AWS Lambda, improving scalability and cost-efficiency by 40%.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+                    <img src="cal.png" alt="Food Inspection Data Analysis" class="w-full h-48 object-cover mb-4 rounded">
+                    <h3 class="text-2xl font-bold mb-2 text-yellow-400">California Food Inspection Data Analysis</h3>
+                    <p class="text-gray-300">Utilized Alteryx, Talend, and Azure SQL for data profiling, staging, and analysis, and crafted dynamic dashboards using Power BI and Tableau.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gradient-to-b from-gray-800 to-black">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4 text-green-400 animate-fade-in">Contact Me</h2>
+            <p class="text-lg mb-4 text-gray-300">Let's Work Together!</p>
+            <a href="mailto:lingamaneni.n@northeastern.edu" class="px-6 py-3 bg-green-600 hover:bg-green-800 text-white font-bold rounded-lg shadow-lg transition duration-300">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-6">
+        <div class="container mx-auto text-center">
+            <p class="text-gray-500">Developed by Nani © 2024</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="https://linkedin.com/in/narayana-rao-lingamaneni/" target="_blank" class="text-blue-500 hover:text-yellow-400 transition duration-300"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/narayana-3005" target="_blank" class="text-yellow-400 hover:text-blue-500 transition duration-300"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
